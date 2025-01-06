@@ -722,7 +722,7 @@ button {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: left ;
+    text-align: center;
     color: #2e2f42;
     margin-bottom: 8px;
 }
@@ -746,6 +746,10 @@ button {
         align-items: flex-start;
         row-gap: 72px;
         column-gap: 24px;
+    }
+
+    .features-h-three {
+        text-align: left;
     }
 }
 
