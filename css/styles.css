@@ -588,13 +588,12 @@ button {
 /* main open page */ 
 
 .open-page {
-    /* max-width: 320px; */
     background-color: #2e2f42;
     padding: 72px 0;
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/Dark-bg.jpg);
+        url(../images/Dark-bg-m.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -604,7 +603,10 @@ button {
 
 @media (min-resolution: 192dpi) {
     .open-page {
-        background-image: url(../images/Dark-bg@2.jpg);
+        background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/Dark-bg-m@2.jpg);
     }
 }
 
@@ -644,6 +646,10 @@ button {
 @media screen and (min-width: 768px) {
     .open-page {
         padding: 112px 0;
+        background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/Dark-bg-p.jpg);
     }
 
     .open-h-one {
@@ -651,6 +657,15 @@ button {
         line-height: 1.07;
         max-width: 496px;
         margin: 0 auto 36px;
+    }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .open-page {
+        background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                    url(../images/Dark-bg-p@2.jpg);
     }
 }
 
@@ -670,7 +685,10 @@ button {
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
     .open-page {
-        background-image: url(../images/people-office1@2.jpg);
+        background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                    url(../images/people-office1@2.jpg);
     }
 }
 
@@ -704,7 +722,7 @@ button {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-align: left ;
     color: #2e2f42;
     margin-bottom: 8px;
 }
